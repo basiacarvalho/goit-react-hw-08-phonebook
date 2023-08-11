@@ -8,8 +8,12 @@ import { Error } from './error/Error';
 import { Loader } from './loader/Loader';
 import { SearchFilter } from './searchfilter/SearchFilter';
 import { Section } from './section/Section';
-import { fetchContacts } from 'redux/operations';
-import { selectContacts, selectError, selectIsLoading } from 'redux/selectors';
+import { fetchContacts } from 'redux/contacts/operations';
+import {
+  selectContacts,
+  selectError,
+  selectIsLoading,
+} from 'redux/contacts/selectors';
 
 export const App = () => {
   const dispatch = useDispatch();
