@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  color: #757575;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: -2px -1px 6px rgba(61, 59, 59, 0.59);
+}
+
+.container {
+  width: 600px;
+}
+
+.section {
+  justify-content: center;
+  display: flex;
+  padding-top: 60px;
+}
