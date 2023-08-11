@@ -1,0 +1,26 @@
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  cursor: pointer;
+  color: #757575;
+  font-weight: 500;
+}
+
+.link:focus,
+.link:hover {
+  text-shadow: 5px 3px 28px rgba(255, 254, 254, 0.774),
+    2px 0 10px rgba(255, 255, 255, 0.74);
+}
+
+.navigation {
+  display: flex;
+  padding: 15px 0 15px 40px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 2;
+}
