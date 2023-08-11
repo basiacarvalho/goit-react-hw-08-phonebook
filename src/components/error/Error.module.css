@@ -27,8 +27,10 @@
   display: flex;
   justify-content: center;
   color: rgb(241, 18, 18);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
   text-shadow: -2px -1px 6px rgba(61, 59, 59, 0.59);
 }

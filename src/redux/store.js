@@ -12,6 +12,7 @@ import {
 import storage from 'redux-persist/lib/storage';
 import { filterReducer } from './filter/filterSlice';
 import { contactsReducer } from './contacts/contactsSlice';
+import { authReducer } from './auth/slice';
 
 // Persisting token field from auth slice to localstorage
 const authPersistConfig = {
