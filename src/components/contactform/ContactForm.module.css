@@ -12,8 +12,8 @@
 }
 
 .nameDetail {
-  /* border: 2px solid #aaa8a8; */
-  border: 2px solid rgba(33, 33, 33, 0.2);
+  background-color: #fffcfc;
+  border: 2px solid #b5b3b3;
   border-radius: 4px;
   width: 100%;
   margin-bottom: 10px;
@@ -24,12 +24,9 @@
   font-weight: bold;
 }
 
+.nameDetail:hover,
 .nameDetail:focus {
-  border: 2px solid #aaa8a8;
-}
-
-.nameDetail:hover {
-  box-shadow: 3px 3px 24px rgba(8, 7, 7, 0.18);
+  box-shadow: 3px 3px 13px #aaa8a8;
 }
 
 .button {
@@ -49,7 +46,8 @@
 .button:focus,
 .button:hover {
   box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.1);
-  background-color: #bbbbbb;
+  background-color: #c3cad5;
   color: #757575;
   cursor: pointer;
 }
+

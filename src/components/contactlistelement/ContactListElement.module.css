@@ -20,16 +20,17 @@
   color: #fff;
   font-size: 12px;
   font-weight: normal;
-  height: 22px;
-  width: 55px;
+  /* height: 22px;
+  width: 55px; */
   outline: none;
-  margin-top: 3px;
+  padding: 5px 10px;
 }
 
 .button:focus,
 .button:hover {
   box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.2);
-  background-color: #bbbbbb;
+  background-color: #c3cad5;
   color: #757575;
+  font-weight: 700;
   cursor: pointer;
 }
