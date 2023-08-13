@@ -13,14 +13,13 @@
 
 .link:focus,
 .link:hover {
-  text-shadow: 5px 3px 28px rgba(255, 254, 254, 0.774),
-    2px 0 10px rgba(255, 255, 255, 0.74);
+  text-shadow: 3px 3px 20px #fffcfc, -2px 1px 40px #fffcfc;
 }
 
 .navigation {
   display: flex;
-  padding: 15px 0 15px 40px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 2;
+  margin: 15px 0 15px 60px;
 }

@@ -2,17 +2,49 @@
   margin-right: 20px;
 }
 
+.linkActive:not(:last-child) {
+  margin-right: 20px;
+}
+
 .link {
   display: inline-block;
   text-decoration: none;
   padding: 12px;
   cursor: pointer;
   color: #757575;
+  font-size: 20px;
   font-weight: 500;
+}
+
+.linkActive {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  cursor: pointer;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.linkActive::after {
+  content: '';
+  height: 4px;
+  background-color: #757575;
+  border-radius: 2px;
+  display: block;
+  margin-top: 10px;
 }
 
 .link:focus,
 .link:hover {
-  text-shadow: 5px 3px 28px rgba(255, 254, 254, 0.774),
-    2px 0 10px rgba(255, 255, 255, 0.74);
+  text-shadow: 3px 3px 20px #fffcfc, -2px 1px 40px #fffcfc;
+}
+
+.linkActive:focus,
+.linkActive:hover {
+  text-shadow: 3px 3px 20px #fffcfc, -2px 1px 40px #fffcfc;
+}
+
+.links {
+  margin: 15px 60px 15px 0;
 }
