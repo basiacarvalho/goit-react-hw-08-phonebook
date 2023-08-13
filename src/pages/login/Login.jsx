@@ -4,7 +4,7 @@ import css from './Login.module.css';
 
 const Login = () => {
   return (
-    <div>
+    <div className={css.section}>
       <Helmet>
         <title>Login</title>
       </Helmet>

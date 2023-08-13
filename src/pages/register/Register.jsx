@@ -4,7 +4,7 @@ import css from './Register.module.css';
 
 const Register = () => {
   return (
-    <div>
+    <div className={css.section}>
       <Helmet>
         <title>Registration</title>
       </Helmet>

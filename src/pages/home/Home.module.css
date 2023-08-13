@@ -25,5 +25,9 @@
 }
 
 .section {
-  padding-top: 250px;
+  padding-top: 20%;
+  /* position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-20%, -50%); */
 }
