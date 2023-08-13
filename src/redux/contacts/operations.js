@@ -10,7 +10,7 @@ export const fetchContacts = createAsyncThunk(
       const response = await axios.get('/contacts');
       return response.data.map(item => ({
         name: item.name,
-        number: item.phone,
+        number: item.number,
         id: item.id,
       }));
     } catch (e) {
@@ -25,7 +25,7 @@ export const addContact = createAsyncThunk(
     try {
       const response = await axios.post('/contacts', {
         name: name,
-        phone: number,
+        number: number,
       });
       return response.data;
     } catch (e) {
