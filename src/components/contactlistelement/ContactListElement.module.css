@@ -12,6 +12,9 @@
   color: #757575;
   margin-right: 5px;
 }
+.listItem:not(:last-child) {
+  margin-bottom: 6px;
+}
 
 .button {
   background-color: #757575;
@@ -20,8 +23,6 @@
   color: #fff;
   font-size: 12px;
   font-weight: normal;
-  /* height: 22px;
-  width: 55px; */
   outline: none;
   padding: 5px 10px;
 }
