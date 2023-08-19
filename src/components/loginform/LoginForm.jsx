@@ -25,7 +25,14 @@ export const LoginForm = () => {
       </label>
       <label className={css.label}>
         Password
-        <input className={css.formDetail} type="password" name="password" />
+        <input
+          className={css.formDetail}
+          type="password"
+          name="password"
+          pattern="^.{7,}$"
+          title="Password must contain at least 7 characters."
+          required
+        />
       </label>
       <button className={css.button} type="submit">
         Log In

@@ -22,15 +22,22 @@ export const RegisterForm = () => {
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
       <label className={css.label}>
         Username
-        <input className={css.formDetail} type="text" name="name" />
+        <input className={css.formDetail} type="text" name="name" required />
       </label>
       <label className={css.label}>
         Email
-        <input className={css.formDetail} type="email" name="email" />
+        <input className={css.formDetail} type="email" name="email" required />
       </label>
       <label className={css.label}>
         Password
-        <input className={css.formDetail} type="password" name="password" />
+        <input
+          className={css.formDetail}
+          type="password"
+          name="password"
+          pattern="^.{7,}$"
+          title="Password must contain at least 7 characters."
+          required
+        />
       </label>
       <button className={css.button} type="submit">
         Register
